@@ -11,7 +11,7 @@ export function RecentActivities() {
         initials: "MJ",
       },
       action: "updated maintenance record for",
-      item: "Drill Bit #DB-1234",
+      item: "Rod Pump #RP-1234",
       time: "2 hours ago",
     },
     {
@@ -22,7 +22,7 @@ export function RecentActivities() {
         initials: "SW",
       },
       action: "moved",
-      item: "Pump #P-5678",
+      item: "Himars #H-5678",
       time: "5 hours ago",
     },
     {
@@ -55,7 +55,7 @@ export function RecentActivities() {
         initials: "RW",
       },
       action: "scheduled maintenance for",
-      item: "Generator #G-9012",
+      item: "Thin Man #TM-9012",
       time: "2 days ago",
     },
   ]

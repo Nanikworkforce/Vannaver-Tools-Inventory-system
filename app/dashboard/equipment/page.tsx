@@ -18,7 +18,7 @@ export default function EquipmentPage() {
   const equipment = [
     {
       id: 1,
-      image: "/images/im1.jpg",
+      image: "/images/ki.png",
       name: "Fatman KI",
       category: "360° Cameras",
       status: "Available",
@@ -27,7 +27,7 @@ export default function EquipmentPage() {
     },
     {
       id: 2,
-      image: "/images/software-suite.jpg",
+      image: "/images/rod.png",
       name: "Rod Pump",
       category: "Software Suite",
       status: "In Use",
@@ -36,7 +36,7 @@ export default function EquipmentPage() {
     },
     {
       id: 3,
-      image: "/images/im2.jpg",
+      image: "/images/himar.png",
       name: "Himars",
       category: "Virtual Tour Platform",
       status: "Available",
@@ -45,7 +45,7 @@ export default function EquipmentPage() {
     },
     {
       id: 4,
-      image: "/images/3d-scanner.jpg",
+      image: "/images/thin.png",
       name: "Thin Man",
       category: "3D Modeling",
       status: "In Maintenance",
@@ -54,8 +54,8 @@ export default function EquipmentPage() {
     },
     {
       id: 5,
-      image: "/images/ar-kit.jpg",
-      name: "AR Development Kit",
+      image: "/images/little.png",
+      name: "Little Boy",
       category: "AR Solutions",
       status: "In Use",
       condition: "Good",
