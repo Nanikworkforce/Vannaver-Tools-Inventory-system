@@ -45,7 +45,7 @@ export function DashboardSidebar() {
     {
       title: "Inventory Management",
       icon: Boxes,
-      href: "/dashboard/equipment",
+      href: "/dashboard/equipment/",
     },
     {
       title: "Tool Monitoring",
@@ -62,6 +62,11 @@ export function DashboardSidebar() {
       icon: BarChart3,
       href: "/dashboard/projects",
     },
+    // {
+    //   title: "Item Page",
+    //   icon: BarChart3,
+    //   href: "/dashboard/item-page",
+    // },
     {
       title: "Job Request",
       icon: FileText,

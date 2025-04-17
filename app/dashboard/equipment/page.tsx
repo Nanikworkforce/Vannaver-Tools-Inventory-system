@@ -12,6 +12,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { PlusCircle } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function EquipmentPage() {
   // This would typically come from your database
@@ -24,6 +25,7 @@ export default function EquipmentPage() {
       status: "Available",
       condition: "Excellent",
       lastMaintenance: "2024-02-15",
+      link: "/dashboard/item-page"
     },
     {
       id: 2,
@@ -95,7 +97,15 @@ export default function EquipmentPage() {
                 <TableCell>
                   <Image src={item.image} alt={item.name} width={100} height={100} />
                 </TableCell>
-                <TableCell className="font-medium">{item.name}</TableCell>
+                <TableCell className="font-medium">
+                  {item.link ? (
+                    <Link href={item.link} className="text-blue-600 hover:underline">
+                      {item.name}
+                    </Link>
+                  ) : (
+                    item.name
+                  )}
+                </TableCell>
                 <TableCell>{item.category}</TableCell>
                 <TableCell>{item.status}</TableCell>
                 <TableCell>{item.condition}</TableCell>
