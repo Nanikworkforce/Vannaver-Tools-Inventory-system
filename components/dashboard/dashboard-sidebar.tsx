@@ -59,11 +59,11 @@ export function DashboardSidebar() {
       icon: Wrench,
       href: "/dashboard/tools",
     },
-    {
-      title: "Open",
-      icon: FolderOpen,
-      href: "/dashboard/open",
-    },
+    // {
+    //   title: "Open",
+    //   icon: FolderOpen,
+    //   href: "/dashboard/open",
+    // },
     {
       title: "Maintenance",
       icon: Calendar,
