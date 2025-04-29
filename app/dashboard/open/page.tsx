@@ -36,13 +36,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">8"</td>
                 <td className="p-2 border-r border-gray-300">FM01</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -58,13 +67,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">30"</td>
                 <td className="p-2 border-r border-gray-300">FM02</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -80,13 +98,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">26"</td>
                 <td className="p-2 border-r border-gray-300">FM03</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -102,13 +129,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">9"</td>
                 <td className="p-2 border-r border-gray-300">FM04</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -124,13 +160,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">XXX</td>
                 <td className="p-2 border-r border-gray-300">FM05</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -146,13 +191,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">6.125"</td>
                 <td className="p-2 border-r border-gray-300">FM06</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -168,13 +222,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">26"</td>
                 <td className="p-2 border-r border-gray-300">FM07</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -190,13 +253,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">8"</td>
                 <td className="p-2 border-r border-gray-300">FM08</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -212,13 +284,22 @@ const OpenPage = () => {
                 <td className="p-2 border-r border-gray-300">2</td>
                 <td className="p-2 border-r border-gray-300">FM09</td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
-                  <input type="text" className="w-full p-1 border rounded" />
+                  <input 
+                    type="datetime-local" 
+                    className="w-full p-1 border rounded" 
+                  />
                 </td>
                 <td className="p-2 border-r border-gray-300">
                   <input type="text" className="w-full p-1 border rounded" />
@@ -260,53 +341,98 @@ const OpenPage = () => {
                 </tr>
                 <tr className="bg-gray-100">
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                 </tr>
                 <tr className="bg-white">
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                 </tr>
                 <tr className="bg-gray-100">
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2 border-r border-gray-300">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                   <td className="p-2">
-                    <input type="text" className="w-full p-1 border rounded" />
+                    <input 
+                      type="datetime-local" 
+                      className="w-full p-1 border rounded" 
+                    />
                   </td>
                 </tr>
               </tbody>
