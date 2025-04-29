@@ -12,6 +12,8 @@ import {
   FileText,
   Boxes,
   Timer,
+  Wrench,
+  FolderOpen,
 } from "lucide-react"
 import {
   Sidebar,
@@ -51,6 +53,16 @@ export function DashboardSidebar() {
       title: "Tool Monitoring",
       icon: Timer,
       href: "/dashboard/tool-monitoring",
+    },
+    {
+      title: "Tools",
+      icon: Wrench,
+      href: "/dashboard/tools",
+    },
+    {
+      title: "Open",
+      icon: FolderOpen,
+      href: "/dashboard/open",
     },
     {
       title: "Maintenance",

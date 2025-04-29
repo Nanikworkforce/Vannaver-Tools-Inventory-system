@@ -92,3 +92,28 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.tools-page-container {
+  padding: 20px;
+  background-color: #004c70; /* Match the background color */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #005f8a; /* Match the item background color */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
