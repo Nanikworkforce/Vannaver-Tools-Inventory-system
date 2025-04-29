@@ -6,7 +6,7 @@ const ToolsPage = () => {
     <div className="p-6">
       <div className="mt-24">
         {/* Header */}
-        <div className="bg-gray-800/80 text-white p-4 text-lg font-bold text-center mb-4">
+        <div className="p-4 text-2xl font-bold text-black text-center mb-4">
           Inventory Tools
         </div>
 
