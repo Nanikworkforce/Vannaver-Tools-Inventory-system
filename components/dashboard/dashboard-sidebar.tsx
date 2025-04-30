@@ -49,11 +49,11 @@ export function DashboardSidebar() {
       icon: Boxes,
       href: "/dashboard/equipment/",
     },
-    // {
-    //   title: "Tool Monitoring",
-    //   icon: Timer,
-    //   href: "/dashboard/tool-monitoring",
-    // },
+    {
+      title: "Monitoring",
+      icon: Timer,
+      href: "/dashboard/new",
+    },
     {
       title: "Inventory & Tool Management",
       icon: Wrench,
