@@ -1,6 +1,16 @@
-import React from "react"
+"use client"
+
+import React, { useState } from "react"
 
 const OpenPage = () => {
+  const [locationInputTypes, setLocationInputTypes] = useState(['select', 'select', 'select']) // One for each row
+
+  const handleLocationChange = (index: number, value: string) => {
+    const newInputTypes = [...locationInputTypes]
+    newInputTypes[index] = value === 'manual' ? 'text' : 'select'
+    setLocationInputTypes(newInputTypes)
+  }
+
   return (
     <div className="p-6">
       <div className="mt-24 min-w-[1600px] overflow-x-auto">
@@ -15,7 +25,7 @@ const OpenPage = () => {
             <thead>
               <tr>
                 <th className="p-3 text-left w-24 border-r border-gray-300"></th>
-                <th className="p-3 text-left border-r border-gray-300"></th>
+                <th className="p-3 text-left border-r border-gray-300">4-½FatMan</th>
                 <th className="p-3 text-left border-r border-gray-300">OD</th>
                 <th className="p-3 text-left border-r border-gray-300">ID</th>
                 <th className="p-3 text-left border-r border-gray-300">Length</th>
@@ -365,10 +375,34 @@ const OpenPage = () => {
                     />
                   </td>
                   <td className="p-2">
-                    <input 
-                      type="datetime-local" 
-                      className="w-full p-1 border rounded" 
-                    />
+                    {locationInputTypes[0] === 'select' ? (
+                      <select 
+                        className="w-full p-1 border rounded"
+                        onChange={(e) => handleLocationChange(0, e.target.value)}
+                      >
+                        <option value="">Select Location</option>
+                        <option value="midland">Midland Texas</option>
+                        <option value="williston">Williston North Dakota</option>
+                        <option value="minot">Minot North Dakota</option>
+                        <option value="south-texas">South Texas</option>
+                        <option value="oklahoma">Oklahoma</option>
+                        <option value="manual">Other (Manual Input)</option>
+                      </select>
+                    ) : (
+                      <div className="flex gap-2">
+                        <input 
+                          type="text" 
+                          placeholder="Enter location"
+                          className="w-full p-1 border rounded" 
+                        />
+                        <button 
+                          onClick={() => handleLocationChange(0, 'select')}
+                          className="px-2 py-1 text-sm border rounded hover:bg-gray-100"
+                        >
+                          ←
+                        </button>
+                      </div>
+                    )}
                   </td>
                 </tr>
                 <tr className="bg-white">
@@ -397,10 +431,34 @@ const OpenPage = () => {
                     />
                   </td>
                   <td className="p-2">
-                    <input 
-                      type="datetime-local" 
-                      className="w-full p-1 border rounded" 
-                    />
+                    {locationInputTypes[1] === 'select' ? (
+                      <select 
+                        className="w-full p-1 border rounded"
+                        onChange={(e) => handleLocationChange(1, e.target.value)}
+                      >
+                        <option value="">Select Location</option>
+                        <option value="midland">Midland Texas</option>
+                        <option value="williston">Williston North Dakota</option>
+                        <option value="minot">Minot North Dakota</option>
+                        <option value="south-texas">South Texas</option>
+                        <option value="oklahoma">Oklahoma</option>
+                        <option value="manual">Other (Manual Input)</option>
+                      </select>
+                    ) : (
+                      <div className="flex gap-2">
+                        <input 
+                          type="text" 
+                          placeholder="Enter location"
+                          className="w-full p-1 border rounded" 
+                        />
+                        <button 
+                          onClick={() => handleLocationChange(1, 'select')}
+                          className="px-2 py-1 text-sm border rounded hover:bg-gray-100"
+                        >
+                          ←
+                        </button>
+                      </div>
+                    )}
                   </td>
                 </tr>
                 <tr className="bg-gray-100">
@@ -429,10 +487,34 @@ const OpenPage = () => {
                     />
                   </td>
                   <td className="p-2">
-                    <input 
-                      type="datetime-local" 
-                      className="w-full p-1 border rounded" 
-                    />
+                    {locationInputTypes[2] === 'select' ? (
+                      <select 
+                        className="w-full p-1 border rounded"
+                        onChange={(e) => handleLocationChange(2, e.target.value)}
+                      >
+                        <option value="">Select Location</option>
+                        <option value="midland">Midland Texas</option>
+                        <option value="williston">Williston North Dakota</option>
+                        <option value="minot">Minot North Dakota</option>
+                        <option value="south-texas">South Texas</option>
+                        <option value="oklahoma">Oklahoma</option>
+                        <option value="manual">Other (Manual Input)</option>
+                      </select>
+                    ) : (
+                      <div className="flex gap-2">
+                        <input 
+                          type="text" 
+                          placeholder="Enter location"
+                          className="w-full p-1 border rounded" 
+                        />
+                        <button 
+                          onClick={() => handleLocationChange(2, 'select')}
+                          className="px-2 py-1 text-sm border rounded hover:bg-gray-100"
+                        >
+                          ←
+                        </button>
+                      </div>
+                    )}
                   </td>
                 </tr>
               </tbody>
