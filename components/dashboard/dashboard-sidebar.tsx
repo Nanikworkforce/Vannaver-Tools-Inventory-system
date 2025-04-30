@@ -55,7 +55,7 @@ export function DashboardSidebar() {
       href: "/dashboard/tool-monitoring",
     },
     {
-      title: "Tool Management",
+      title: "Inventory & Tool Management",
       icon: Wrench,
       href: "/dashboard/tools",
     },
